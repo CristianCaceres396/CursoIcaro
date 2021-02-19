@@ -1,0 +1,187 @@
+* {
+	margin: 5;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(imagenes/background1920x3053.jpg);
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	align-items: center;
+	width: 100%;
+	min-width: 280px;
+	border-radius: 10vw;
+	margin-bottom: 20px; 
+}
+
+header img {
+	width:60px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+header nav {
+	color: black;
+	font-family: sans-serif;
+	font-style: italic;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+main {
+	color: white;
+}
+
+h1, h2, h3 {
+	text-align: center;
+	font-family: arial black;
+}
+
+p {
+	display: inline-grid;
+	margin: 10px;
+	font-family: sans-serif;
+	font-size: 18px;
+	text-align: justify;
+}
+
+table {
+	position: relative;
+	align-items: center;
+	font-family: arial;
+	font-style: italic;
+}
+
+ol {
+	margin-left: 10px;
+}
+
+footer {
+	background-color: #4F4D4D;
+	color: white; 
+	display: flex; 
+	width: 100%; 
+	border-radius: 50px; 
+	text-align: center;
+}
+
+
+.menu a{
+	margin: 10px;
+}
+
+.menu {
+	padding-right: 15px;
+}
+
+.iframe{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.boton-ver-mas {
+	display: flex;
+	justify-content: center;
+}
+
+.botonvermas {
+	color: black;
+	background-color: white;
+	padding: 10px 15px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-family: sans-serif;
+	font-style: italic;
+	text-decoration: none;
+}
+
+.tabla {
+	width: 100%;
+	position: relative;
+	display: inline-grid;
+	justify-content: center;
+}
+
+.discos {
+	margin-bottom: 10px;
+}
+
+.discosenvivo {
+	margin-bottom: 15px;
+}
+
+.chizzo {
+	width: 100%;
+	height: 50%; 
+}
+
+.formulario {
+	border-radius: 5px;
+}
+
+.titulo{
+	margin-bottom: 0;
+}
+
+.box-disco{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.img-disco{
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+}
+
+@media screen and (min-width: 280px) and (max-width: 720px) {
+
+	p {
+		width: 100%;
+		color: white;
+		font-size: 1em;
+		text-align: justify;
+	}
+	.youtube{
+		display: none;
+	}
+
+	.main-historia p{
+		text-align: justify;
+	}
+
+	.main-historia h3{
+		color: red;
+	}
+}
+
+@media screen and (min-width: 721px) and (max-width: 1024px) {
+
+	p {
+		width: 100%;
+		color: white;
+		font-size: 1em;
+		text-align: justify;
+	}
+
+	.main-historia p{
+		text-align: justify;
+	}
+
+	.main-historia h3{
+		color: red;
+	}
+}
